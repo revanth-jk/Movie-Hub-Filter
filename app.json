@@ -1,0 +1,46 @@
+{
+    "name": "Movie Hub Filter",
+    "description": "A Filter Bot Which Doesnt Need Manuall Filter Adding",
+    "logo": "https://telegra.ph/file/9ae74cd2c1ad8653a6db6.jpg",
+    "keywords": [
+        "Auto",
+        "Filter",
+        "Mongo DB"
+    ],
+    "website": "https://github.com/revanth-jk",
+    "repository": "https://github.com/revanth-jk/Movie-Hub-Filter",
+    "success_url": "https://telegram.dog/revanthjk",
+    "env": {
+        "APP_ID": {
+            "description": "Your APP ID From my.telegram.org or @UseTGXBot",
+            "value": "5468861"
+        },
+        "API_HASH": {
+            "description": "Your API Hash From my.telegram.org or @UseTGXBot",
+            "value": "3233f4f33696cecf2611b349abdc3d85"
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "DB_URI": {
+            "description": "Your Mongo DB URL Obtained From mongodb.com",
+            "value": ""
+        },
+        "USER_SESSION": {
+            "description": "A Pyrogram User Session String. Generated From @PyrogramStringBot",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
