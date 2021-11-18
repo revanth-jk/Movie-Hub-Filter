@@ -28,9 +28,8 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = ✪༺ ─•◈•─༺✪༺ ─•◈•─༻✪
-                            Share & Support Us ❣️
-                               📤 @Movie_Kadai,
+                caption =Share & Support Us ❣️
+                          📤 @Movie_Kadai,              
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
